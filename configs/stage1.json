@@ -1,0 +1,15 @@
+{
+  "data.train_batch_size": 60,
+  "data.val_batch_size": 24,
+  "actor_rollout_ref.rollout.n": 5,
+  "algorithm.cf_psr.expected_group_size": 5,
+  "actor_rollout_ref.actor.ppo_mini_batch_size": 30,
+  "actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu": 3,
+  "actor_rollout_ref.actor.ulysses_sequence_parallel_size": 8,
+  "actor_rollout_ref.actor.fsdp_config.grad_offload": true,
+  "actor_rollout_ref.rollout.log_prob_micro_batch_size_per_gpu": 3,
+  "actor_rollout_ref.ref.log_prob_micro_batch_size_per_gpu": 3,
+  "trainer.total_training_steps": 80,
+  "trainer.save_freq": 10,
+  "trainer.test_freq": 10
+}

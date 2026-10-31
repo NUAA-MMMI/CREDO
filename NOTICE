@@ -1,0 +1,9 @@
+This anonymous source supplement contains CREDO method code and modified
+components derived from VERL and Search-R1/Temp-R1.
+
+Third-party copyright notices embedded in source files are preserved.
+The framework-derived components are distributed under Apache License 2.0.
+No attribution to the submitting authors is embedded in this package.
+
+Source layout and resource configuration have been adapted for anonymous
+distribution. Symbolic resource names replace deployment-specific values.

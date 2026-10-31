@@ -1,0 +1,15 @@
+[
+  {
+    "name": "search_agent",
+    "_target_": "search_r1.search_agent_loop.SearchAgentLoop",
+    "search_url": "RETRIEVAL_ENDPOINT",
+    "topk": 30,
+    "max_turns": 3,
+    "max_obs_length": 1400,
+    "max_start_length": 2000,
+    "prompt_length": 5200,
+    "response_length": 5200,
+    "max_tokens_per_turn": 1000,
+    "max_model_len": 6200
+  }
+]
